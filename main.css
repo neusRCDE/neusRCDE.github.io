@@ -88,16 +88,16 @@ h3{
     width: 100%;
 }
 
-.h1{
-    font-style: bold;
-    font-size: 700px;
-}
-
-.col-12.p{
+.col-12 p{
     padding-left: 60px;
     padding-right: 60px;
     font-size: 30px;
 }
 
+.hi{
+   font-weight: bold;  	
+   font-size: 40px;
+
+}
 
 
