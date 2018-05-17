@@ -36,7 +36,7 @@
 
 .col-10 h1,
 h3{
-    margin-left: 200px;
+    margin-left: 600px;
 }
 
 /*define cols of all sizes 1/12 to 12/12*/
@@ -88,10 +88,16 @@ h3{
     width: 100%;
 }
 
-.content h1{
-    color: greenyellow;
+.h1{
+    font-style: bold;
+    font-size: 700px;
 }
 
+.col-12.p{
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 30px;
+}
 
 
 
