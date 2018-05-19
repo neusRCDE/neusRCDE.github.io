@@ -1,11 +1,15 @@
 
-/*
-*{
-    border: 1px solid red !important; show box lines
-}
-*/
+/*  *{border: 1px solid red !important; show box lines}*/
 
-*{   
+@media only screen and (min-width: 1200px) {
+    /* styles for large screens */
+}
+
+@media only screen and (max-width: 320px) {
+    /* styles for narrow screens */
+}
+
+*{
     font-family: 'Lato', sans-serif;
     font-weight: 300;/*OTHER: font-family: 'Tajawal', sans-serif;
 */
@@ -31,21 +35,38 @@
     width: 100%;
     margin-bottom: 20px;
     display: flex;/*this will make the columns align next to each other, if their width is defined*/
-    flex-wrap: wrap;    
+    flex-wrap: wrap;
 }
 
-.banner col-10{
-    background-color: rgba(255, 165, 0, 0.5);
+.contact{
+
 }
 
-.col-10 h1,
+h1,
 h3{
-    margin-left: 600px;   
+    color: lawngreen;
+}
+.banner{
+    background-image: url(images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 240px;
 }
 
 .footer{
     background-color: rgba(255, 165, 0, 0.5);
     padding: 20px;
+    
+}
+
+*/DEFINE COLS POSITIONS*/
+
+.col-left{
+    grid-column: 10 / -1;
+}
+
+.col-4 p{
+  padding:15px;
 }
 
 /*define cols of all sizes 1/12 to 12/12*/
@@ -63,7 +84,6 @@ h3{
 
 .col-4 {
     width: 33.33%;
-    padding: 20px;
 }
 
 .col-5 {
@@ -105,9 +125,7 @@ h3{
 }
 
 .hi{
-   font-weight: bold;  	
+   font-weight: bold;
    font-size: 40px;
 
 }
-
-
