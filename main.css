@@ -47,7 +47,7 @@ h3{
     color: lawngreen;
 }
 .banner{
-    background-image: url(images/banner.jpg);
+    background-image: url(banner.jpg);
     background-size: cover;
     background-position: center;
     height: 240px;
