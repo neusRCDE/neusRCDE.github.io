@@ -23,8 +23,6 @@
 }
 
 
-
-
 .grid {
     margin: 0 auto;
     max-width: 1200px; /*max normal resolution screen*/
@@ -46,12 +44,24 @@ h1,
 h3{
     color: lawngreen;
 }
+
+.navi li{
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+    font-weight: 900;
+    padding-top: 20px;    
+}
+
 .banner{
     background-image: url(banner.jpg);
     background-size: cover;
     background-position: center;
     height: 240px;
 }
+
+
 
 .footer{
     background-color: rgba(124,252,0, 0.5);
