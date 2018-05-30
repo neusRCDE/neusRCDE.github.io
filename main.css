@@ -47,10 +47,11 @@ h3{
 
 .top-navi{
     width: cover;
+    text-align: center;
 }
 .top-navi li{
     display: inline-block;
-    width: 270px;
+    width: 220px;
     text-align: center;
     justify-content: center;
     font-weight: 900;
