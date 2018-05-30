@@ -45,13 +45,18 @@ h3{
     color: lawngreen;
 }
 
-.navi li{
+.top-navi{
+    width: cover;
+}
+.top-navi li{
     display: inline-block;
-    width: 200px;
+    width: 270px;
     text-align: center;
     justify-content: center;
     font-weight: 900;
-    padding-top: 20px;    
+    padding: 20px;
+    margin: auto;
+    background-color: rgba(124, 252, 0, 0.6);
 }
 
 .banner{
